@@ -6,7 +6,8 @@ var app = new Vue({
         return {
             product: 'Socks',
             image: './assets/vmSocks-green.jpg',
-            altText: "A pair of socks"
+            altText: "A pair of socks",
+            link: "https://www.google.com"
         }
     }
 })
