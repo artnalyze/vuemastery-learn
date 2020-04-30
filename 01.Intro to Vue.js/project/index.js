@@ -7,7 +7,9 @@ var app = new Vue({
             product: 'Socks',
             image: './assets/vmSocks-green.jpg',
             altText: "A pair of socks",
-            link: "https://www.google.com"
+            link: "https://www.google.com",
+            inStock: true,
+            inventory: 100
         }
     }
 })
