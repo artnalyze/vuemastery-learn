@@ -9,7 +9,8 @@ var app = new Vue({
             altText: "A pair of socks",
             link: "https://www.google.com",
             inStock: true,
-            inventory: 100
+            inventory: 100,
+            onSale: true
         }
     }
-})
+});
