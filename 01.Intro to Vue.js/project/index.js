@@ -10,7 +10,8 @@ var app = new Vue({
             link: "https://www.google.com",
             inStock: true,
             inventory: 100,
-            onSale: true
+            onSale: true,
+            details: ["80% cotton", "20% polyester", "Gender-neutral"]
         }
     }
 });
@@ -20,5 +21,5 @@ var app = new Vue({
 - 01-The Vue Instance
 - 02-Attribute Binding
 - 03-Conditional Rendering
-- 04-List Rendering.md
+- 04-List Rendering
 */

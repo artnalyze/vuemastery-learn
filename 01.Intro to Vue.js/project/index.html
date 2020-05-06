@@ -17,12 +17,13 @@
         <div class="product-info">
           <h1>{{ product }}</h1>
           <a :href="link" target="_blank">More products</a>
-          <p v-if="inventory > 10">In Stock</p>
-          <p v-else-if="inventory <= 10 && inventory > 0">Almost sold out!</p>
-          <p v-else></p>
-          <p v-show="inStock">In Stock</p>
-          <span v-if="onSale">On Sale!</span>
+          <p v-if="inStock">In Stock</p>
+          <p v-else>Out of Stock</p>
         </div>
+        <br>
+        <ul>
+          <li v-for="detail in details">{{ detail }}</li>
+        </ul>
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
