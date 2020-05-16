@@ -1,6 +1,6 @@
 # Learning Vue Mastery - Code
 
-- [ ] [01.Intro to Vue.js](markdown-src/01.Intro to Vue.js)
+- [ ] [01.Intro to Vue.js](markdown-src/01.Intro-to-Vue.js)
   - [x] 01. The Vue Instance
   - [x] 02. Attribute Binding
   - [x] 03. Condition Rendering
