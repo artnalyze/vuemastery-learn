@@ -11,7 +11,17 @@ var app = new Vue({
             inStock: true,
             inventory: 100,
             onSale: true,
-            details: ["80% cotton", "20% polyester", "Gender-neutral"]
+            details: ["80% cotton", "20% polyester", "Gender-neutral"],
+            variants: [ 
+                { 
+                    vatiantId: 2234,
+                    variantColor: "green" 
+                },
+                {
+                    vatiantId: 2235,
+                    variantColor: "blue"                     
+                }
+            ]
         }
     }
 });
