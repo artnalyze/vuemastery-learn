@@ -20,14 +20,20 @@
           <p v-if="inStock">In Stock</p>
           <p v-else>Out of Stock</p>
         </div>
-        <br>
+
         <ul>
           <li v-for="detail in details">{{ detail }}</li>
         </ul>
-        <br>
+
         <div v-for="variant in variants" :key="variant.vatiantId">
           <p>{{ variant.variantColor }}</p>
         </div>
+
+        <div class="class">
+          <p>Cart {{ cart }}</p>
+        </div>
+
+        <button v-on:click="cart += 1">Add to cart</button>
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
