@@ -2,6 +2,11 @@ console.log("Hello vue");
 
 var app = new Vue({
   el: "#app",
+  methods: {
+    addToCart() {
+      this.cart += 1;
+    },
+  },
   data() {
     return {
       product: "Socks",
@@ -16,10 +21,12 @@ var app = new Vue({
         {
           vatiantId: 2234,
           variantColor: "green",
+          variantImage: "./assets/vmSocks-green.jpg",
         },
         {
           vatiantId: 2235,
           variantColor: "blue",
+          variantImage: "./assets/vmSocks-blue.jpg",
         },
       ],
       cart: 0,
