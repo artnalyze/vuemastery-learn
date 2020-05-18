@@ -6,6 +6,11 @@ var app = new Vue({
     addToCart() {
       this.cart += 1;
     },
+    updateProduct(variantImage) {
+      // es6 shorthand
+      // like updateProduct: function(varaintImage)
+      this.image = variantImage;
+    },
   },
   data() {
     return {
