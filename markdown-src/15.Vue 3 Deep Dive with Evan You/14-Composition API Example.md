@@ -1,0 +1,3 @@
+# Composition API Example
+
+In this lesson we write some code to demonstrate the power of the  Composition API.  Evan creates a reusable composition function called `useFetch` which does an API call. He also explains why he likes to use `ref`s over `reactive` in these functions, and shows how composition functions are able to  encapsulate stateful logic that runs across the whole lifecycle of the  component that is consuming it. Lastly, we discuss a few more use-cases  for choosing composition API to create components.
